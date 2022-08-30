@@ -5,3 +5,9 @@ management:
         include: prometheus
 server:
   port: 4000
+
+spring:
+  security:
+    user:
+      name: prometheus
+      password: prometheus
